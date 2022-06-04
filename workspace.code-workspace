@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "recognize test",
+        "type": "node",
+        "runtimeVersion": "16.14.2",
+        "request": "launch",
+        "program": "${workspaceFolder}/typescript/node_modules/jest/bin/jest",
+        "args": ["--runInBand"],
+        "cwd": "${workspaceFolder}/typescript",
+        "sourceMaps": true,
+      }
+    ]
+  }
+}
