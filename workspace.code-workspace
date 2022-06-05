@@ -8,15 +8,25 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "recognize test",
+        "name": "ReSpace test",
         "type": "node",
         "runtimeVersion": "16.14.2",
         "request": "launch",
-        "program": "${workspaceFolder}/typescript/node_modules/jest/bin/jest",
+        "program": "${workspaceFolder}/ReSpace/typescript/node_modules/jest/bin/jest",
         "args": ["--runInBand"],
-        "cwd": "${workspaceFolder}/typescript",
+        "cwd": "${workspaceFolder}/ReSpace/typescript",
         "sourceMaps": true,
-      }
+      },
+      {
+        "name": "Islands test",
+        "type": "node",
+        "runtimeVersion": "16.14.2",
+        "request": "launch",
+        "program": "${workspaceFolder}/Islands/typescript/node_modules/jest/bin/jest",
+        "args": ["--runInBand"],
+        "cwd": "${workspaceFolder}/Islands/typescript",
+        "sourceMaps": true,
+      },
     ]
   }
 }
