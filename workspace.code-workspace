@@ -27,6 +27,16 @@
         "cwd": "${workspaceFolder}/Islands/typescript",
         "sourceMaps": true,
       },
+      {
+        "name": "CircusTower test",
+        "type": "node",
+        "runtimeVersion": "16.14.2",
+        "request": "launch",
+        "program": "${workspaceFolder}/CircusTower/typescript/node_modules/jest/bin/jest",
+        "args": ["--runInBand"],
+        "cwd": "${workspaceFolder}/CircusTower/typescript",
+        "sourceMaps": true,
+      },
     ]
   }
 }
