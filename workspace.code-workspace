@@ -37,6 +37,16 @@
         "cwd": "${workspaceFolder}/CircusTower/typescript",
         "sourceMaps": true,
       },
+      {
+        "name": "Sudoku test",
+        "type": "node",
+        "runtimeVersion": "16.14.2",
+        "request": "launch",
+        "program": "${workspaceFolder}/Sudoku/node_modules/jest/bin/jest",
+        "args": ["--runInBand"],
+        "cwd": "${workspaceFolder}/Sudoku",
+        "sourceMaps": true,
+      },
     ]
   }
 }
