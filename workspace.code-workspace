@@ -47,6 +47,29 @@
         "cwd": "${workspaceFolder}/Sudoku",
         "sourceMaps": true,
       },
+      {
+        "name": "MatrixRotation test",
+        "type": "node",
+        "runtimeVersion": "16.14.2",
+        "request": "launch",
+        "program": "${workspaceFolder}/MatrixRotation/node_modules/jest/bin/jest",
+        "args": ["--runInBand"],
+        "cwd": "${workspaceFolder}/MatrixRotation",
+        "sourceMaps": true,
+      },
+      {
+        "name": "MatrixRotation",
+        "type": "node",
+        "runtimeVersion": "16.14.2",
+        "request": "launch",
+        "args": ["--runInBand"],
+        "program": "${workspaceFolder}/MatrixRotation/dist/index.js",
+        "cwd": "${workspaceFolder}/MatrixRotation",
+        "sourceMaps": true,
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+      },
     ]
   }
 }
