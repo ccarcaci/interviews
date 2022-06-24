@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dist": "tsc --project tsconfig.dist.json",
-    "start": "tsc --project tsconfig.dist.json; node dist/index.js",
+    "start": "tsc --project tsconfig.dist.json && node dist/index.js",
     "test": "jest --passWithNoTests --runInBand"
   },
   "devDependencies": {
